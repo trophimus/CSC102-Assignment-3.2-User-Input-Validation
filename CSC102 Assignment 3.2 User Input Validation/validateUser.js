@@ -10,7 +10,7 @@ function validateInput() {
         return;
     }
 
-    if (!/^\d{5}$/.test(zipCode)) {
+    if (zipCode.length != 5) {
         alert("Zip code must be 5 digits.");
         return;
     }
